@@ -8,6 +8,9 @@
 }
 
 body {
+  font-size: 33px;
+  line-height: 40px;
+  color: #333;
 }
 
 header {
@@ -18,29 +21,59 @@ header {
 }
 
 section {
-
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #FFA500;
 }
 
 #left {
+  float:left;
+  width: 33.3%;
+  color: #fff;
+  background: #30948D;
 }
 
 #middle {
+  float:left;
+  width:33.3%;
+  color: #fff;
+  background: #9E1212;
 }
 
 #right {
+  float: left;
+  width: 33.3%;
+  color: #fff;
+  background: #30948D;
 }
 
 #full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  color: #fff;
+  background: #394549;
 }
 
 #division {
+  padding: 20px;
+  margin-top: 20px;
+  background: #214fb3;
 }
 
 aside {
   height: 200px;
-background-color: aliceblue;
+  background-color: aliceblue;
+  float: left;
+  width: 33.3%;
+  margin-left: 30px;
+  padding: 20px:
+  border: 1px solid #eee;
 
 }
 
 footer {
+  padding: 20px;
+  clear: both;
+  background: #FFA500;
 }
