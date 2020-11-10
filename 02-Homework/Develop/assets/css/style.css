@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* no (.) b/c calling on an entire element */
 body {
     background-color: #d9dcd6;
 }
 
+/* . used b/c calling on aspect in the body */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,11 +43,13 @@ body {
     margin-left: 25px;
 }
 
+/* a selector represents the list items in the header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Calling all p tags */
 p {
     font-size: 16px;
 }
